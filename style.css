@@ -1,0 +1,151 @@
+/* ==================
+===== Important =====
+================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    max-width: 1000px;
+    background-color: #E7BF58;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clear-div{
+    clear: both;
+}
+hr{
+    
+    margin-bottom: 0;
+    border: 5px solid #fff;
+    border-radius: 3px;
+}
+
+
+/* ==================
+===== HEADER =====
+================== */
+
+
+.profile-image{
+    margin: 0;
+    padding-top: 10px;
+}
+.prf-image{
+    height: 350px;
+    width: 200px; 
+    display: block;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 18%;
+}
+.profile-name h1{
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    font-weight: 3px;
+}
+.profile-name p{
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 3px;
+}
+
+
+
+/* ==================
+===== Main =====
+================== */
+
+
+
+/* Personal information */
+.personal-information{
+    width: 350px;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.personal-info{
+    float: left;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.personal-info ul{
+    list-style-type: circle;
+}
+.personal-info ul li{
+    margin: 20px;
+}
+
+/* Hire me */
+.hire{
+    margin: 20px 20px 20px 55px;
+    float: left;
+}
+.hire ol{
+    list-style-type: unset;
+}
+.hire ol li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.hire ol li a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+}
+.hire ol li{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'ChunkFive', sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Contact me */
+.svgicons{
+    float: left;
+    margin-top: 10px;
+}
+.svgicons img{
+    margin: 10px;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border: 5px  ;
+    border-radius: 100%;
+}
+.svgicons img:hover{
+    height: 70px;
+    width: 70px;
+    box-shadow: 0px 0px 20px 10px #000;
+}
+
+/* ==================
+===== Footer =====
+================== */
+
+.footer{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
