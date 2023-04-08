@@ -46,7 +46,7 @@ hr{
     display: block;
     margin: 0 auto;
     border: 10px solid white;
-    border-radius: 18%;
+    border-radius: 10px;
 }
 .profile-name h1{
     color: white;
